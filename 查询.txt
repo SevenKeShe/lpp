@@ -1,0 +1,14 @@
+stu=new Student();
+                Cursor re=dbhepler.selectAll(db);
+                Toast.makeText(T_select .this,"³É¹¦!!",Toast.LENGTH_LONG).show();
+                while (re.moveToNext()) {
+                    Map<String,Object> item=new HashMap<String,Object>();
+                    item.put("no", re.getString(re.getColumnIndex("no")));
+                    item.put("name", re.getString(re.getColumnIndex("name")));
+                    item.put("chinese", re.getString(re.getColumnIndex("chinese")));
+                    item.put("math", re.getString(re.getColumnIndex("math")));
+                    item.put("english", re.getString(re.getColumnIndex("english")));
+                    list.add(item);
+                    SimpleAdapter adapter = new SimpleAdapter(T_select.this, list, R.layout.listview, new String[]{"no", "name", "chinese", "math", "english"}, new int[]{R.id.no, R.id.name, R.id.chinese, R.id.math, R.id.english});
+                    lv.setAdapter(adapter);
+                }
