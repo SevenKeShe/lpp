@@ -1,0 +1,25 @@
+@charset "utf-8";
+/* CSS Document */
+.top_text{ font-size: 1.8em; text-align: center;letter-spacing: 1.5px;}
+a{color: #000000; font-size: 14px;}
+.line{border-bottom:dashed 1px #ccc; float: left; width: 100%;margin-top: 5px; padding-bottom: 3px;}
+.line .txt{ float: left;overflow: hidden;  white-space: nowrap; text-overflow: ellipsis; max-width: 280px;}
+.line .time{float: right; color: #898989;}
+.zuoye1{ margin-top: 20px; margin-right: 10px; padding: 0px 15px 0px 15px;}
+.zuoye2{ margin-top: 20px; margin-right: 10px;padding: 0px 15px 0px 15px;}
+.text-center{padding-top: 30px;}
+.text-center .zuoyename{ margin-left: 40px; float: left; margin-bottom: 10px;}
+.text-center .submit{  margin-right: 40px;float: right; margin-bottom: 10px;}
+.templatemo-overflow-hidden .templatemo-content-widget{padding: 0px;}
+.panel .table{text-align: center;}
+.require{padding: 0px 15px 0px 15px;line-height: 20px;}
+.margin-bottom-10{text-align: center;}
+.content-work{ min-height: 300px;}
+.table-title{text-align: center;letter-spacing:20PX;}
+.file{ color: #39ADB4;}
+.txt{float: left; margin-top: 6px;}
+.score{ float: left; width: 200px;}
+.fujian{float: left;}
+.pifen{ float: right;}
+.notice{height: 161px;}
+
